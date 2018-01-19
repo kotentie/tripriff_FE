@@ -1,10 +1,5 @@
-# Brunch + Babel/ES6 + Vue + Vue-Router + Vuex + Karma-Brunch
+# This is the Tripriff Frontend
 
-This is a modern JS Vue skeleton for [Brunch](http://brunch.io).
-
-## Installation
-
-Clone this repo manually or use `brunch new dir -s mileandra/brunch-vue-karma`
 
 ## Getting started
 
@@ -16,7 +11,4 @@ Clone this repo manually or use `brunch new dir -s mileandra/brunch-vue-karma`
     * `npm start` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history).
     * `npm run build` — builds minified project for production
     * `npm test` - runs the unit tests in the specs folder
-* Learn:
-    * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
-    * Place static files you want to be copied from `app/assets/` to `public/`.
-    * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
+
