@@ -1,0 +1,9 @@
+.button {
+  appearance: none;
+  background-color: $color-interactive1;
+  border-radius: $border-radius - 1;
+  color: $color-light;
+  font-weight: bold;
+  line-height: 1;
+  padding: $gridspacing $gridspacing * 2;
+}

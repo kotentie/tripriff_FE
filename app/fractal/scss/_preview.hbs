@@ -4,11 +4,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Brunch with Vue</title>
-  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="{{ path '/app.css' }}">
 </head>
 <body>
-  <div id="app"><button class="button">Hello there</button></div>
-  <script src="/vendor.js"></script>
-  <script src="/app.js"></script>
+  <div id="app">
+    {{{ yield }}}
+  </div>
+  <script src="{{ path '/vendor.js' }}"></script>
+  <script src="{{ path '/app.js' }}"></script>
   <script>require('index');</script>
 </body>

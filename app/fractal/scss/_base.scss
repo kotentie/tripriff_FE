@@ -1,0 +1,67 @@
+// Colors
+
+$color-interactive1: #63bcb6; // light green
+$color-interactive2: #3d4a7c; // blue-purple
+$color-dark: #25302f; // dark grey
+$color-dark1: #bdbdbd; // light grey
+$color-light: #fff; // white
+
+// Fonts
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: bold;
+  src: url('fonts/Lato-Bold.ttf') format('truetype');
+}
+
+$font-family: 'Lato', sans-serif;
+// $font-family-secondary: 'Roboto', sans-serif;
+
+// Font Sizes
+
+$font-size-small: 10px;
+$font-size: 15px;
+$font-size-large: 20px;
+$font-size-large2: 25px;
+$font-size-large3: 35px;
+$font-size-large4: 40px;
+
+// Line Heights
+
+$line-height: 30px;
+$line-height-large: 40px;
+
+// Grid Spacing
+
+$gridspacing: 8px;
+
+// Break Points
+
+$media-phone: 320px;
+$media-tablet: 768px;
+$media-laptop: 1024px;
+$media-hd: 1440px;
+
+// Transitions / Animations
+
+$transition-duration: .25s;
+$transition-easing: ease-in-out;
+
+// Border Radius
+
+$border-radius: $gridspacing / 2;
+
+// Default z-index values
+
+$z-index-low: 1;
+$z-index-medium: 2;
+$z-index-high: 3;
+$z-index-highest: 4;
