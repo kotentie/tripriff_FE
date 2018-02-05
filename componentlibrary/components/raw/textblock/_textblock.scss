@@ -1,0 +1,40 @@
+.textblock {
+  -webkit-font-smoothing: antialiased;
+
+  h1 {
+    @include textstyle-heading1;
+    margin-bottom: $gridspacing * 3;
+  }
+
+  h2 {
+    @include textstyle-heading2;
+    margin-bottom: $gridspacing * 2;
+  }
+
+  h3 {
+    @include textstyle-heading3;
+    margin-bottom: $gridspacing;
+  }
+
+  h4 {
+    @include textstyle-heading4;
+    margin-bottom: $gridspacing;
+  }
+
+  p {
+    @include textstyle-body;
+  }
+
+  // ul,
+  // ol {
+  //   padding: 0 0 0 $gridspacing * 4;
+  // }
+  //
+  // ol {
+  //   list-style: decimal;
+  // }
+  //
+  // ul {
+  //   list-style: disc;
+  // }
+}

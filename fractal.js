@@ -9,13 +9,12 @@ fractal.set('project.version', 'v1.0');
 fractal.set('project.author', 'Julian Mullins');
 
 /* Tell Fractal where the components will live */
-fractal.components.set('path', __dirname + '/app/fractal/scss');
-// fractal.components.set('ext', '.handlebars'); // default is '.hbs'
+fractal.components.set('path', __dirname + '/app/scss');
 
 /* Tell Fractal where the documentation pages will live */
-fractal.docs.set('path', __dirname + '/app/fractal/docs');
+fractal.docs.set('path', __dirname + '/app/docs');
 
-/* Tell Fractal where the static assets live */
+// /* Tell Fractal where the static assets live */
 fractal.web.set('static.path', __dirname + '/public');
 
 /* Tell Fractal the default preview wrapper to use */

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{{ _target.label }} | TripRiff Component Library</title>
+    <link rel="stylesheet" href="{{ path '/app.css' }}">
+  </head>
+  <body>
+    <div id="app">
+      {{{ yield }}}
+    </div>
+    <script src="{{ path '/vendor.js' }}"></script>
+    <script src="{{ path '/app.js' }}"></script>
+    <script>require('index');</script>
+  </body>
+</html>

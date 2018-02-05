@@ -1,0 +1,52 @@
+// Text Styles
+// Based on Sketch document
+
+@mixin textstyle-bodysmall {
+  font-family: $font-family;
+  font-size: $font-size-small;
+  font-weight: normal;
+  line-height: $line-height;
+}
+
+@mixin textstyle-body {
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: normal;
+  line-height: $line-height;
+}
+
+@mixin textstyle-bodybold {
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: bold;
+  line-height: $line-height;
+}
+
+// largest heading
+@mixin textstyle-heading1 {
+  color: $color-interactive2;
+  font-size: $font-size-large4;
+  font-weight: bold;
+  line-height: $line-height-large;
+}
+
+@mixin textstyle-heading2 {
+  color: $color-interactive2;
+  font-size: $font-size-large3;
+  font-weight: normal;
+  line-height: $line-height-large;
+}
+
+@mixin textstyle-heading3 {
+  color: $color-interactive2;
+  font-size: $font-size-large2;
+  font-weight: normal;
+  line-height: $line-height;
+}
+
+@mixin textstyle-heading4 {
+  color: $color-interactive2;
+  font-size: $font-size-large;
+  font-weight: bold;
+  line-height: $line-height;
+}

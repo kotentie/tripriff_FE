@@ -1,0 +1,83 @@
+//all of the app's styles are compiled here
+
+// Base Rules
+
+@import 'base';
+@import 'mixins';
+
+// Remove outline from manually focused elements
+
+[tabindex='-1'] {
+  outline: 0;
+}
+
+button,
+input,
+select,
+table,
+textarea {
+  -webkit-font-smoothing: antialiased;
+  appearance: none;
+  background: none;
+  border: 0;
+  border-radius: 0; // Mobile Safari's user agent sets this
+  box-sizing: border-box;
+  color: $color-dark1;
+  display: block;
+  font-family: $font-family;
+  font-size: $font-size;
+  line-height: $line-height;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+a,
+abbr {
+  color: $color-interactive1;
+  text-decoration: none;
+}
+
+body {
+  color: $color-dark;
+  font-family: $font-family;
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+button {
+  cursor: pointer;
+}
+
+.brunch {
+  color: $color-interactive1;
+  font-family: -apple-system, Sans-Serif;
+  font-size: 24pt;
+  text-align: center;
+}
+
+// Layout Rules
+
+@import
+// l-container
+'layoutrules/l-container/l-container',
+
+// l-containerchildren
+'layoutrules/l-containerchildren/l-containerchildren';
+
+
+// Module Rules
+
+@import
+// Button
+'modulerules/button/button',
+
+// Textblock
+'modulerules/textblock/textblock',
+
+// Visually hidden
+'modulerules/visuallyhidden/visuallyhidden';

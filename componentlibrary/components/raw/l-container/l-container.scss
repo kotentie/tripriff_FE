@@ -1,0 +1,15 @@
+.l-container {
+  padding: $gridspacing * 5 $gridspacing * 2 $gridspacing * 8;
+
+  @media (min-width: $media-tablet) {
+    padding: $gridspacing * 4 $gridspacing * 4 $gridspacing * 8;
+  }
+
+  @media (min-width: $media-laptop) {
+    padding: $gridspacing * 4 $gridspacing * 4 $gridspacing * 16;
+  }
+
+  @media (min-width: $media-hd) {
+    padding: $gridspacing * 8 0 $gridspacing * 16 $gridspacing * 8;
+  }
+}
