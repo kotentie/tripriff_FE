@@ -1,5 +1,6 @@
 // See http://brunch.io for documentation.
 exports.paths = {
+  public: 'public',
   watched: ['app']
 };
 exports.files = {

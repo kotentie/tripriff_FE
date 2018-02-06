@@ -1,4 +1,4 @@
 module.exports = {
-  label: 'Visually Hidden',
+  label: 'Container Horizontal',
   preview: '@preview--none'
-};
+}
