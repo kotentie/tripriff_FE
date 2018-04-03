@@ -13,7 +13,9 @@ exports.files = {
   templates: {
     joinTo: 'app.js'
   },
-  stylesheets: {joinTo: '/^app/fractal/static/app.css'}
+  stylesheets: {joinTo: '/^app/fractal/static/app.css'},
+  stylesheets: {joinTo: 'app.css'}
+
 };
 
 exports.plugins = {
