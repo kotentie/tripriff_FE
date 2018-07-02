@@ -78,7 +78,7 @@ Variable Name | Value
 `$media-phone` | 320px
 `$media-tablet` | 768px
 `$media-laptop` | 1024px
-`$media-hd` | 1440px
+`$media-hd` | 1366px
 
 ## Animation (Transitions)
 
