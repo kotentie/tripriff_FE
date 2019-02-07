@@ -1,15 +1,7 @@
 .button {
   appearance: none;
-  background-color: $color-interactive1;
-  border-radius: $border-radius - 1;
+  background-color: $color-interactive2;
+  border-radius: $border-radius;
   color: $color-light;
-  font-weight: bold;
-  line-height: 1;
   padding: $gridspacing $gridspacing * 2;
-}
-
-.button-x-inverted {
-  background-color: $color-light;
-  border: $gridspacing / 8 solid $color-interactive1;
-  color: $color-interactive1;
 }
