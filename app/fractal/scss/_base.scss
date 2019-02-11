@@ -48,7 +48,7 @@ $gridspacing: 8px;
 $media-phone: 320px;
 $media-tablet: 768px;
 $media-laptop: 1024px;
-$media-hd: 1440px;
+$media-hd: 1366px;
 
 // Transitions / Animations
 
@@ -57,7 +57,7 @@ $transition-easing: ease-in-out;
 
 // Border Radius
 
-$border-radius: $gridspacing / 2;
+$border-radius: 3px;
 
 // Default z-index values
 
